@@ -14,7 +14,7 @@ const SkillsSection = () => {
           <img src="images/Product-Design.svg" alt="" className="skill-icon" />
           <h3 className="heading-skills">Programming Language</h3>
           <div className="skill-set">
-            {/* Add individual skills here */}
+
             <div className="ind-skill">
               <div className="div-block-9">
                 <img src="images/java.png" loading="lazy" alt="" />
@@ -23,7 +23,46 @@ const SkillsSection = () => {
                 <p className="p-skill-name">Java</p>
               </div>
             </div>
-            {/* Add more skills as needed */}
+            <div className="ind-skill">
+              <div className="div-block-9">
+                <img src="images/python.png" loading="lazy" alt="" />
+              </div>
+              <div className="skill-name">
+                <p className="p-skill-name">Python</p>
+              </div>
+            </div>
+            <div className="ind-skill">
+              <div className="div-block-9">
+                <img src="images/icons8-c-480.png" loading="lazy" alt="" />
+              </div>
+              <div className="skill-name">
+                <p className="p-skill-name">C</p>
+              </div>
+            </div>
+            <div className="ind-skill">
+              <div className="div-block-9">
+                <img src="images/icons8-c-480_1.png" loading="lazy" alt="" />
+              </div>
+              <div className="skill-name">
+                <p className="p-skill-name">C++</p>
+              </div>
+            </div>
+            <div className="ind-skill">
+              <div className="div-block-9">
+                <img src="images/icons8-javascript-480.png" loading="lazy" alt="" />
+              </div>
+              <div className="skill-name">
+                <p className="p-skill-name">JavaScript</p>
+              </div>
+            </div>
+            <div className="ind-skill">
+              <div className="div-block-9">
+                <img src="images/icons8-typescript-480.png" loading="lazy" alt="" />
+              </div>
+              <div className="skill-name">
+                <p className="p-skill-name">TypeScript</p>
+              </div>
+            </div>
           </div>
         </div>
         
