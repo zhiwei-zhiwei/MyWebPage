@@ -1,25 +1,25 @@
-import axios from 'axios';
-import React, { useEffect, useState } from 'react';
+import React from 'react';
+import Navbar from './components/Navbar';
+import HeroSection from './components/HeroSection';
+import EducationSection from './components/EducationSection';
+import SkillsSection from './components/SkillsSection';
+import JobSection from './components/JobSection';
+// import ContactSection from './components/ContactSection';
+import Footer from './components/Footer';
+import './App.css';
 
-const App = () => {
-  const [data, setData] = useState([]);
-
-  useEffect(() => {
-    axios.get('http://localhost:5000/api/data')
-      .then(response => setData(response.data))
-      .catch(error => console.error(error));
-  }, []);
-
+function App() {
   return (
-    <div>
-      <h1>Data from .NET API</h1>
-      <ul>
-        {data.map(item => (
-          <li key={item.id}>{item.name}</li>
-        ))}
-      </ul>
+    <div className="App">
+      <Navbar />
+      <HeroSection />
+      <EducationSection />
+      <SkillsSection />
+      <JobSection />
+      {/* <ContactSection /> */}
+      <Footer />
     </div>
   );
-};
+}
 
 export default App;
