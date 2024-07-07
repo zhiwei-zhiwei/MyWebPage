@@ -23,6 +23,7 @@ const SkillsSection = () => {
                 <p className="p-skill-name">Java</p>
               </div>
             </div>
+
             <div className="ind-skill">
               <div className="div-block-9">
                 <img src="images/python.png" loading="lazy" alt="" />
@@ -31,6 +32,7 @@ const SkillsSection = () => {
                 <p className="p-skill-name">Python</p>
               </div>
             </div>
+
             <div className="ind-skill">
               <div className="div-block-9">
                 <img src="images/icons8-c-480.png" loading="lazy" alt="" />
@@ -39,6 +41,7 @@ const SkillsSection = () => {
                 <p className="p-skill-name">C</p>
               </div>
             </div>
+
             <div className="ind-skill">
               <div className="div-block-9">
                 <img src="images/icons8-c-480_1.png" loading="lazy" alt="" />
@@ -47,6 +50,7 @@ const SkillsSection = () => {
                 <p className="p-skill-name">C++</p>
               </div>
             </div>
+
             <div className="ind-skill">
               <div className="div-block-9">
                 <img src="images/icons8-javascript-480.png" loading="lazy" alt="" />
@@ -55,6 +59,7 @@ const SkillsSection = () => {
                 <p className="p-skill-name">JavaScript</p>
               </div>
             </div>
+
             <div className="ind-skill">
               <div className="div-block-9">
                 <img src="images/icons8-typescript-480.png" loading="lazy" alt="" />
@@ -71,7 +76,7 @@ const SkillsSection = () => {
           <img src="images/Visual-Design.svg" alt="" className="skill-icon" />
           <h3 className="heading-skills">Web Development</h3>
           <div className="skill-set">
-            {/* Add individual skills here */}
+
             <div className="ind-skill">
               <div className="div-block-9">
                 <img src="images/icons8-html-480.png" loading="lazy" alt="" />
@@ -80,7 +85,69 @@ const SkillsSection = () => {
                 <p className="p-skill-name">HTML</p>
               </div>
             </div>
-            {/* Add more skills as needed */}
+
+            <div className="ind-skill">
+              <div className="div-block-9">
+                <img src="images/icons8-css-480.png" loading="lazy" alt="" />
+              </div>
+              <div className="skill-name">
+                <p className="p-skill-name">CSS</p>
+              </div>
+            </div>
+
+            <div className="ind-skill">
+              <div className="div-block-9">
+                <img src="images/icons8-react-native-480.png" loading="lazy" alt="" />
+              </div>
+              <div className="skill-name">
+                <p className="p-skill-name">React</p>
+              </div>
+            </div>
+
+            <div className="ind-skill">
+              <div className="div-block-9">
+                <img src="images/net.svg" loading="lazy" alt="" />
+              </div>
+              <div className="skill-name">
+                <p className="p-skill-name">.NET</p>
+              </div>
+            </div>
+
+            <div className="ind-skill">
+              <div className="div-block-9">
+                <img src="images/icons8-nodejs-480.png" loading="lazy" alt="" />
+              </div>
+              <div className="skill-name">
+                <p className="p-skill-name">Node.js</p>
+              </div>
+            </div>
+
+            <div className="ind-skill">
+              <div className="div-block-9">
+                <img src="images/icons8-flask-480.png" loading="lazy" alt="" />
+              </div>
+              <div className="skill-name">
+                <p className="p-skill-name">Flask</p>
+              </div>
+            </div>
+
+            <div className="ind-skill">
+              <div className="div-block-9">
+                <img src="images/rest-api-icon.png" loading="lazy" alt="" />
+              </div>
+              <div className="skill-name">
+                <p className="p-skill-name">RESTful API</p>
+              </div>
+            </div>
+
+            <div className="ind-skill">
+              <div className="div-block-9">
+                <img src="images/ajax.png" loading="lazy" alt="" />
+              </div>
+              <div className="skill-name">
+                <p className="p-skill-name">AJAX</p>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -89,7 +156,7 @@ const SkillsSection = () => {
           <img src="images/Motion-Design.svg" alt="" className="skill-icon" />
           <h3 className="heading-skills">Databases</h3>
           <div className="skill-set">
-            {/* Add individual skills here */}
+
             <div className="ind-skill">
               <div className="div-block-9">
                 <img src="images/pngwing.com.png" loading="lazy" alt="" />
@@ -98,7 +165,61 @@ const SkillsSection = () => {
                 <p className="p-skill-name">SQL</p>
               </div>
             </div>
-            {/* Add more skills as needed */}
+
+            <div className="ind-skill">
+              <div className="div-block-9">
+                <img src="images/pngwing.com.png" loading="lazy" alt="" />
+              </div>
+              <div className="skill-name">
+                <p className="p-skill-name">NoSQL</p>
+              </div>
+            </div>
+
+            <div className="ind-skill">
+              <div className="div-block-9">
+                <img src="images/icons8-mysql-480.png" loading="lazy" alt="" />
+              </div>
+              <div className="skill-name">
+                <p className="p-skill-name">MySQL</p>
+              </div>
+            </div>
+
+            <div className="ind-skill">
+              <div className="div-block-9">
+                <img src="images/icons8-mongodb-480.png" loading="lazy" alt="" />
+              </div>
+              <div className="skill-name">
+                <p className="p-skill-name">MongoDB</p>
+              </div>
+            </div>
+
+            <div className="ind-skill">
+              <div className="div-block-9">
+                <img src="images/icons8-sqlite-500.png" loading="lazy" alt="" />
+              </div>
+              <div className="skill-name">
+                <p className="p-skill-name">SQLite</p>
+              </div>
+            </div>
+
+            <div className="ind-skill">
+              <div className="div-block-9">
+                <img src="images/icons8-redis-480.png" loading="lazy" alt="" />
+              </div>
+              <div className="skill-name">
+                <p className="p-skill-name">Redis</p>
+              </div>
+            </div>
+
+            <div className="ind-skill">
+              <div className="div-block-9">
+                <img src="images/elastic.svg" loading="lazy" alt="" />
+              </div>
+              <div className="skill-name">
+                <p className="p-skill-name">Elastic</p>
+              </div>
+            </div>
+
           </div>
         </div>
 
@@ -107,7 +228,7 @@ const SkillsSection = () => {
           <img src="images/Photography.svg" alt="" className="skill-icon" />
           <h3 className="heading-skills">Game Design &amp; Design</h3>
           <div className="skill-set">
-            {/* Add individual skills here */}
+
             <div className="ind-skill">
               <div className="div-block-9">
                 <img src="images/download.png" loading="lazy" alt="" />
@@ -116,7 +237,97 @@ const SkillsSection = () => {
                 <p className="p-skill-name">Rhinoceros 3D</p>
               </div>
             </div>
-            {/* Add more skills as needed */}
+
+            <div className="ind-skill">
+              <div className="div-block-9">
+                <img src="images/maya.jpg" loading="lazy" alt="" />
+              </div>
+              <div className="skill-name">
+                <p className="p-skill-name">Maya</p>
+              </div>
+            </div>
+
+            <div className="ind-skill">
+              <div className="div-block-9">
+                <img src="images/ps.png" loading="lazy" alt="" />
+              </div>
+              <div className="skill-name">
+                <p className="p-skill-name">Photoshop</p>
+              </div>
+            </div>
+
+            <div className="ind-skill">
+              <div className="div-block-9">
+                <img src="images/pr.png" loading="lazy" alt="" />
+              </div>
+              <div className="skill-name">
+                <p className="p-skill-name">Premiere</p>
+              </div>
+            </div>
+
+            <div className="ind-skill">
+              <div className="div-block-9">
+                <img src="images/p5js.png" loading="lazy" alt="" />
+              </div>
+              <div className="skill-name">
+                <p className="p-skill-name">p5.js</p>
+              </div>
+            </div>
+
+            <div className="ind-skill">
+              <div className="div-block-9">
+                <img src="images/p5paly.png" loading="lazy" alt="" />
+              </div>
+              <div className="skill-name">
+                <p className="p-skill-name">p5play</p>
+              </div>
+            </div>
+
+            <div className="ind-skill">
+              <div className="div-block-9">
+                <img src="images/puzzle.png" loading="lazy" alt="" />
+              </div>
+              <div className="skill-name">
+                <p className="p-skill-name">PuzzleScript</p>
+              </div>
+            </div>
+
+            <div className="ind-skill">
+              <div className="div-block-9">
+                <img src="images/bitsy.png" loading="lazy" alt="" />
+              </div>
+              <div className="skill-name">
+                <p className="p-skill-name">Bitsy</p>
+              </div>
+            </div>
+
+            <div className="ind-skill">
+              <div className="div-block-9">
+                <img src="images/gbstudio.png" loading="lazy" alt="" />
+              </div>
+              <div className="skill-name">
+                <p className="p-skill-name">GB Studio</p>
+              </div>
+            </div>
+
+            <div className="ind-skill">
+              <div className="div-block-9">
+                <img src="images/twine.png" loading="lazy" alt="" />
+              </div>
+              <div className="skill-name">
+                <p className="p-skill-name">Twine</p>
+              </div>
+            </div>
+
+            <div className="ind-skill">
+              <div className="div-block-9">
+                <img src="images/rpg.png" loading="lazy" alt="" />
+              </div>
+              <div className="skill-name">
+                <p className="p-skill-name">RPG Maker MV</p>
+              </div>
+            </div>
+
           </div>
         </div>
 
