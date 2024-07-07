@@ -953,7 +953,7 @@
     grid-column-gap: 16px;
     grid-row-gap: 16px;
     background-color: rgba(8, 8, 8, 0);
-    background-image: url('../images/java.png');
+    /* background-image: url('../images/java.png'); */
     background-position: 0 0;
     background-size: cover;
     grid-template-rows: auto auto;
