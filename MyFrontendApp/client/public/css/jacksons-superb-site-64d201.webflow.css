@@ -852,7 +852,7 @@
   }
   
   .ind-skill {
-    grid-column-gap: 16px;
+    /* grid-column-gap: 16px; */
     grid-row-gap: 16px;
     text-align: center;
     grid-template-rows: auto;
@@ -872,7 +872,7 @@
     margin-top: 0;
     margin-bottom: 0;
     padding-top: 0;
-    font-size: 28px;
+    font-size: 20px;
     display: flex;
   }
   
@@ -993,15 +993,15 @@
   }
   
   .p-skill-name-other {
-    text-align: center;
+    text-align: left;
     flex-flow: row;
     justify-content: flex-start;
     align-items: center;
-    width: 240px;
+    width: 150px;
     margin-top: 0;
     margin-bottom: 0;
     padding-top: 0;
-    font-size: 28px;
+    font-size: 20px;
     display: flex;
   }
   
@@ -1270,6 +1270,32 @@
     grid-auto-columns: 1fr;
     display: grid;
   }
+
+  .programming-language{
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+  }
+
+  .web-development{
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+  }
+
+  .databases{
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+  }
+
+  .game-design{
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+  }
+
+  .rest-skills{ 
+    grid-column: 2 / 4;
+    grid-row: 3 / 4;
+  }
+
   
   .wrapper-github.projects-grid {
     grid-column-gap: 24px;

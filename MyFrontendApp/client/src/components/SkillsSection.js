@@ -150,9 +150,8 @@ const SkillsSection = () => {
             </div>
           </div>
         </div>
-
         {/* -----------------------------------    3   ---------------------------- */}
-        <div className="skills-wrapper _48px-right_p">
+        <div className="databases skills-wrapper _48px-right_p">
           <img src="images/Motion-Design.svg" alt="" className="skill-icon" />
           <h3 className="heading-skills">Databases</h3>
           <div className="skill-set">
@@ -224,7 +223,7 @@ const SkillsSection = () => {
         </div>
 
         {/* ------------------------------------    4   --------------------------- */}
-        <div className="skills-wrapper _48px-right_p">
+        <div className="game-design skills-wrapper _48px-right_p">
           <img src="images/Photography.svg" alt="" className="skill-icon" />
           <h3 className="heading-skills">Game Design &amp; Design</h3>
           <div className="skill-set">
@@ -332,6 +331,101 @@ const SkillsSection = () => {
         </div>
 
         {/* --------------------------------------------------------------- */}
+
+        <div className='rest-skills skills-wrapper _48px-right_p'>
+            <h3 className="heading-skills">Other</h3>
+            <div className='skill-set-other'>
+                <div className='ind-skill-other'>
+                    <div className='skill-name-other'>
+                        <p className='p-skill-name-other'>Linux</p>
+                    </div>
+                </div>
+
+                <div className='ind-skill-other'>
+                    <div className='skill-name-other'>
+                        <p className='p-skill-name-other'>Git</p>
+                    </div>
+                </div>
+
+                <div className='ind-skill-other'>
+                    <div className='skill-name-other'>
+                        <p className='p-skill-name-other'>OOP</p>
+                    </div>
+                </div>
+
+                <div className='ind-skill-other'>
+                    <div className='skill-name-other'>
+                        <p className='p-skill-name-other'>OOA</p>
+                    </div>
+                </div>
+
+                <div className='ind-skill-other'>
+                    <div className='skill-name-other'>
+                        <p className='p-skill-name-other'>Apache ActiveMQ</p>
+                    </div>
+                </div>
+
+                <div className='ind-skill-other'>
+                    <div className='skill-name-other'>
+                        <p className='p-skill-name-other'>EIP</p>
+                    </div>
+                </div>
+
+                <div className='ind-skill-other'>
+                    <div className='skill-name-other'>
+                        <p className='p-skill-name-other'>Design Pattern</p>
+                    </div>
+                </div>
+
+                <div className='ind-skill-other'>
+                    <div className='skill-name-other'>
+                        <p className='p-skill-name-other'>Agile</p>
+                    </div>
+                </div>
+
+                <div className='ind-skill-other'>
+                    <div className='skill-name-other'>
+                        <p className='p-skill-name-other'>Kanban</p>
+                    </div>
+                </div>
+
+                <div className='ind-skill-other'>
+                    <div className='skill-name-other'>
+                        <p className='p-skill-name-other'>Postman</p>
+                    </div>
+                </div>
+
+                <div className='ind-skill-other'>
+                    <div className='skill-name-other'>
+                        <p className='p-skill-name-other'>Docker</p>
+                    </div>
+                </div>
+
+                <div className='ind-skill-other'>
+                    <div className='skill-name-other'>
+                        <p className='p-skill-name-other'>Figma</p>
+                    </div>
+                </div>
+
+                <div className='ind-skill-other'>
+                    <div className='skill-name-other'>
+                        <p className='p-skill-name-other'>Webflow</p>
+                    </div>
+                </div>
+
+                <div className='ind-skill-other'>
+                    <div className='skill-name-other'>
+                        <p className='p-skill-name-other'>HCI</p>
+                    </div>
+                </div>
+
+                <div className='ind-skill-other'>
+                    <div className='skill-name-other'>
+                        <p className='p-skill-name-other'>etc.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
       </div>
     </section>
   );
