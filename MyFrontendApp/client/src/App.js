@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import HeroSection from './components/HeroSection';
 import EducationSection from './components/EducationSection';
+import EduImg from './components/EduImg';
 import SkillsSection from './components/SkillsSection';
 import JobSection from './components/JobSection';
 // import ContactSection from './components/ContactSection';
@@ -14,6 +15,7 @@ function App() {
       <Navbar />
       <HeroSection />
       <EducationSection />
+      <EduImg />
       <SkillsSection />
       <JobSection />
       {/* <ContactSection /> */}
