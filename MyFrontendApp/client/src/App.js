@@ -4,6 +4,7 @@ import HeroSection from './components/HeroSection';
 import EducationSection from './components/EducationSection';
 import EduImg from './components/EduImg';
 import SkillsSection from './components/SkillsSection';
+import LogoBar from './components/LogoBar';
 import JobSection from './components/JobSection';
 // import ContactSection from './components/ContactSection';
 import Footer from './components/Footer';
@@ -17,6 +18,7 @@ function App() {
       <EducationSection />
       <EduImg />
       <SkillsSection />
+      <LogoBar />
       <JobSection />
       {/* <ContactSection /> */}
       <Footer />
