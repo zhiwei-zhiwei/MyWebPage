@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/zhiweicao/Documents/MyWebPage/MyBackendApi/MyBackendApi.csproj": {}
+    "/Users/zhiweicao/Desktop/Github/MyWebPage/MyBackendApi/MyBackendApi.csproj": {}
   },
   "projects": {
-    "/Users/zhiweicao/Documents/MyWebPage/MyBackendApi/MyBackendApi.csproj": {
+    "/Users/zhiweicao/Desktop/Github/MyWebPage/MyBackendApi/MyBackendApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/zhiweicao/Documents/MyWebPage/MyBackendApi/MyBackendApi.csproj",
+        "projectUniqueName": "/Users/zhiweicao/Desktop/Github/MyWebPage/MyBackendApi/MyBackendApi.csproj",
         "projectName": "MyBackendApi",
-        "projectPath": "/Users/zhiweicao/Documents/MyWebPage/MyBackendApi/MyBackendApi.csproj",
+        "projectPath": "/Users/zhiweicao/Desktop/Github/MyWebPage/MyBackendApi/MyBackendApi.csproj",
         "packagesPath": "/Users/zhiweicao/.nuget/packages/",
-        "outputPath": "/Users/zhiweicao/Documents/MyWebPage/MyBackendApi/obj/",
+        "outputPath": "/Users/zhiweicao/Desktop/Github/MyWebPage/MyBackendApi/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/zhiweicao/.nuget/NuGet/NuGet.Config"
